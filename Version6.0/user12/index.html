@@ -1,18 +1,151 @@
 <html lang="en">
-    <!--Version 6.0 
-	Name:
+<!--Version 6.0 
+	Name: Brendan
 	Date Completed:
     -->
-    <head>
-        
-        <title>Web Development User #12</title>
-    
-    </head>
-    
-    <body>
-        
-        <center>My name is User #12</center>
-    
-    </body>
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SHS WebDev Version 3.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <!-- These are needed to get the responsive menu to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>Home of Fruit User #12</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #4205c5;
+            color: #ddd;
+        }
+
+        .topnav a.active {
+            background-color: #525252;
+            color: white;
+        }
+
+        .textboxhome {
+            margin-left: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a class="active" href="list.html">Fruits of the Month</a>
+            <a class="active" href="looks.html">What they look like</a>
+            <a class="active" href="about.html">Fruit Facts</a>
+        </div>
+
+    </nav>
+    <main class="textboxhome">
+        <h1>Welcome to the one site thats all about Fruit</h1>
+        <p>While you're here what would you think about?</p>
+
+
+    </main>
+
+    <form id="form">
+
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+
+            <!-- Input Type Text -->
+            <input type="text" id="name" placeholder="WHAT IS NAME" />
+        </div>
+
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+
+            <!-- Input Type Text -->
+            <input type="text" id="age" placeholder="WHAT IS OLD" />
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                WHAT ARE YOU?
+            </label>
+
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="Bannana">BANANA</option>
+                <option value="Apple?">APPLE</option>
+                <option value="Grape?">
+                    GRAPE
+                </option>
+                <option value="other"> STINKY VEGETABLE</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>
+                RECOMMEND FRUITS TO PEOPLE?????????
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">YUMMMM</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">ICKKKY</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">Vegetable best</input>
+            </label>
+        </div>
+
+
+
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+
+
+
+
+
+</body>
 
 </html>
